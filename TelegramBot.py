@@ -5,7 +5,7 @@ from gtts import gTTS
 import qrcode
 
 
-bot = telebot.TeleBot("2108045173:AAHhkvg6-0Z7lQwAKQ3yZIljU-MSueO0jwQ")
+bot = telebot.TeleBot("TOKEN")
 
 
 @bot.message_handler(commands = ['start'])
